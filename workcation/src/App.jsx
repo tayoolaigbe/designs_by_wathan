@@ -2,7 +2,7 @@ function App() {
 	return (
 		<div className="bg-gray-200 antialiased">
 			<header className="bg-gray-900">
-				<div className="flex justify-between items-center  px-4 py-3">
+				<div className="flex justify-between px-4 py-3">
 					<div>
 						<svg
 							className="h-8 w-auto"
@@ -27,9 +27,9 @@ function App() {
 						</svg>
 					</div>
 					<div className="flex">
-						<button>
+						<button className="px-2 text-gray-500 hover:text-white focus:outline-none focus:text-white">
 							<svg
-								className="h-6 w-6 fill-current text-gray-500"
+								className="h-6 w-6 fill-current "
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 24 24"
 							>
@@ -42,14 +42,23 @@ function App() {
 					</div>
 				</div>
 				<nav>
-					<div className="px-5 pt-3 pb-5 border-b border-gray-800">
-						<a href="#" className="block  font-semibold text-white">
+					<div className="px-2 pt-2 pb-5 border-b border-gray-800">
+						<a
+							href="#"
+							className="block px-3 py-1 rounded font-semibold text-white hover:bg-gray-800"
+						>
 							List your property
 						</a>
-						<a href="#" className="mt-3 block  font-semibold text-white">
+						<a
+							href="#"
+							className="mt-1 block px-3 py-1 rounded font-semibold text-white hover:bg-gray-800"
+						>
 							Trips
 						</a>
-						<a href="#" className="mt-3 block  font-semibold text-white">
+						<a
+							href="#"
+							className="mt-1 block px-3 py-1 rounded font-semibold text-white hover:bg-gray-800"
+						>
 							Message
 						</a>
 					</div>
@@ -65,13 +74,13 @@ function App() {
 							</span>
 						</div>
 						<div className="mt-5">
-							<a href="" className="block text-gray-400">
+							<a href="" className="block text-gray-400 hover:text-white">
 								Account settings
 							</a>
-							<a href="" className="mt-3 block text-gray-400">
+							<a href="" className="mt-3 block text-gray-400 hover:text-white">
 								Support
 							</a>
-							<a href="" className="mt-3 block text-gray-400">
+							<a href="" className="mt-3 block text-gray-400 hover:text-white">
 								Sign out
 							</a>
 						</div>
